@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3F5FC;
+}
+
+.contenidos{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;   
+}
+
+.logo{
+    width: 100%;
+    float: left;  
+}
+
+.logoImg{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: -20%;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+
+.texto-izq{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;   
+}
+
+.texto-der{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;    
+    background: white;
+}
+
+#muneico{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+
+}
+
+#ingrese-texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#desencriptar{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.botones{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;   
+}
+
+#btn-encriptar{
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+}
+
+#btn-desencriptar{
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfe8;
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #d8dfe8;
+    border-radius: 24px;
+    display: none;
+}
+
+/*Sin conversion multiplataforma para celulares*/
